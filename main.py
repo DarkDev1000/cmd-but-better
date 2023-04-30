@@ -12,7 +12,7 @@ os.system("cls")
 
 os.system("title Command Prompt but Better")
 
-print("Welcome to Command Prompt but Better!")
+print("Welcome tao Command Prompt but Better!")
 print("Made by DarkDev#2048")
 print("\n\n")
 
