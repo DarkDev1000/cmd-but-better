@@ -1,1 +1,2 @@
-colorama==0.4.6
+prompt_toolkit==0.2.6
+pygments==2.14.0
