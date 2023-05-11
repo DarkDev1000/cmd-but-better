@@ -1,6 +1,7 @@
 # Import stuff
 import os
 from prompt_toolkit import PromptSession
+from prompt_toolkit.completion import PathCompleter
 from prompt_toolkit.lexers import PygmentsLexer
 from prompt_toolkit.styles import Style
 from pygments.lexers import PowerShellLexer
@@ -21,7 +22,7 @@ style = Style.from_dict({
 
 # Execute & highlight code
 def command_line():
-    session = PromptSession(lexer=PygmentsLexer(PowerShellLexer), style=style)
+    session = PromptSession(lexer=PygmentsLexer(PowerShellLexer), completer=PathCompleter(), style=style)
     while True:
         try:
             command = session.prompt(os.getcwd() + "~"  + "$ ")
