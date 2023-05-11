@@ -1,2 +1,2 @@
 # cmd-but-better
-colored command prompt | something i made in 7 seconds
+syntax highlighted command prompt in python | something i made in 7 seconds
